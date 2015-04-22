@@ -1,3 +1,5 @@
+<?php
+
 $login_url = 'http://www.somesite.com/login.php';
  
 //These are the post data username and password
@@ -35,3 +37,5 @@ curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookie.txt');
  
 //Execute the action to login
 $postResult = curl_exec($ch);
+
+?>
