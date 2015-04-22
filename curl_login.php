@@ -7,7 +7,7 @@ $post_data = 'username=someusername&password=somepassword';
  
 //Create a curl object
 $ch = curl_init();
- 
+
 //Set the useragent
 $agent = $_SERVER["HTTP_USER_AGENT"];
 curl_setopt($ch, CURLOPT_USERAGENT, $agent);
